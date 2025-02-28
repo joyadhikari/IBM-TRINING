@@ -1,0 +1,38 @@
+#parent{
+    width: 25%;
+    border: 1px solid rgb(215, 39, 39);
+    text-align: center;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    
+}
+body{
+    background: url(https://img.freepik.com/free-photo/copy-space-yellow-arrows_23-2148488414.jpg)
+}
+h1{
+    margin:0%;
+}
+
+input{
+    width: 85%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    width: 50%;
+    border: none;
+    background-color: rgb(31, 111, 182);
+    margin-bottom: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+table, td, th{
+    margin-top: 100px;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: auto;
+   color: white;
+}
