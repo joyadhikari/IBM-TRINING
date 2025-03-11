@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+img {
+    width: 36px;
+    height: 6;
+    cursor: pointer;
+}
+
+nav {
+    width: 100%;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 203;
+}
+
+.nav-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left img:first-child {
+    margin-right: 15px;
+}
+
+.nav-left .threelines {
+    width: 18px;
+    height: 45px;
+}
+
+.nav-left .youtubelogo {
+    width: 140px;
+    height: auto;
+    max-height: 75px;
+}
+
+
+
+.searchBar {
+    display: flex;  
+    align-items: center;
+    background: #f1f1f1;
+    padding: 6px 8px;
+    border-radius: 25px;
+    width: 400px;
+    max-width: 400pxs;
+    justify-content: center;
+    margin: 0 auto;
+    /* Keeps search bar from being too large */
+}
+
+
+
+.searchBar input {
+    width: 180%;
+    height: 50%;
+    border: 60%;
+    border-radius:50px;
+    background: whitesmokes;
+    outline: none;
+    padding: 9px;
+    /* width: 110%; */
+}
+
+/* .mic img {
+    width: 20px;
+    height: 38px; */
+/* } */
+
+/* * .mic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e5e5e5;
+    border-radius: 52%;
+    width: 0;
+    height: 44px;
+    margin-left: 3%;
+
+}
+
+.mic img {
+    width: 20px;
+    height: 37px;
+
+} */
+
+
+/* Fixed incorrect class targeting */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.nav-right img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+/* Corrected selector for user icon */
+.nav-right .user-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Sidebar Styling */
+.sideba {
+    background: #fff;
+    width: 10%;
+    height: 500vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    padding-left: 0%;
+    padding-top: 80px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+/* Sidebar Links */
+.shortcut-links a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.shortcut-links a img {
+    width: 25px;
+    height: auto;
+
+    /* margin-right: 20px; */
+}
+
+.shortcut-links a:first-child {
+    color: rgb(255, 0, 0);
+}
+
+/* Sidebar Divider */
+.sideba hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 85%;
+    /* margin: 10px 0; */
+}
+
+@media (max-width: 768px) {
+    .searchBar {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .nav-right img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .sidebar {
+        width: 200px;
+    }
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
