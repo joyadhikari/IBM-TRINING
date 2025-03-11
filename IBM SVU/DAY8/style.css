@@ -84,17 +84,17 @@ nav {
     height: 38px; */
 /* } */
 
-/* * .mic {
+/* .mic {
     display: flex;
     align-items: center;
     justify-content: center;
     background: #e5e5e5;
     border-radius: 52%;
-    width: 0;
+    width: 10%;
     height: 44px;
-    margin-left: 3%;
+    margin-right: 3%;
 
-}
+} */
 
 .mic img {
     width: 20px;
